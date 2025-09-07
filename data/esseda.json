@@ -5,23 +5,67 @@
     "brand": "Audi",
     "model": "A4 Avant",
     "fuel": "Diesel",
-    "tire_type": "Winterreifen",
     "tire_size": "225/45 R17",
-    "stock": 24,
-    "price_per_tire": 120,
-    "warehouse": "Zürich Nord"
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Continental",
+        "model": "WinterContact TS 860",
+        "price_chf": 165,
+        "stock": 12,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "summer",
+        "brand": "Michelin",
+        "model": "Pilot Sport 4",
+        "price_chf": 180,
+        "stock": 8,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "allseason",
+        "brand": "Pirelli",
+        "model": "Cinturato All Season Plus",
+        "price_chf": 155,
+        "stock": 6,
+        "warehouse": "Bern Mitte"
+      }
+    ]
   },
   "BE45678": {
     "plate": "BE45678",
     "type_certificate": "2BTR3456",
     "brand": "BMW",
-    "model": "X3",
+    "model": "X3 xDrive",
     "fuel": "Benzin",
-    "tire_type": "Sommerreifen",
     "tire_size": "245/50 R18",
-    "stock": 10,
-    "price_per_tire": 145,
-    "warehouse": "Bern Mitte"
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Dunlop",
+        "model": "Winter Sport 5 SUV",
+        "price_chf": 195,
+        "stock": 10,
+        "warehouse": "Bern Mitte"
+      },
+      {
+        "season": "summer",
+        "brand": "Bridgestone",
+        "model": "Turanza T005",
+        "price_chf": 210,
+        "stock": 6,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "allseason",
+        "brand": "Goodyear",
+        "model": "Vector 4Seasons SUV",
+        "price_chf": 185,
+        "stock": 8,
+        "warehouse": "Bern Mitte"
+      }
+    ]
   },
   "GE98765": {
     "plate": "GE98765",
@@ -29,10 +73,168 @@
     "brand": "Tesla",
     "model": "Model 3",
     "fuel": "Elektrisch",
-    "tire_type": "Ganzjahresreifen",
     "tire_size": "235/45 R18",
-    "stock": 6,
-    "price_per_tire": 210,
-    "warehouse": "Genf Süd"
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Michelin",
+        "model": "Pilot Alpin 5",
+        "price_chf": 220,
+        "stock": 4,
+        "warehouse": "Genf Süd"
+      },
+      {
+        "season": "summer",
+        "brand": "Pirelli",
+        "model": "P Zero",
+        "price_chf": 235,
+        "stock": 6,
+        "warehouse": "Genf Süd"
+      },
+      {
+        "season": "allseason",
+        "brand": "Goodyear",
+        "model": "Vector 4Seasons Gen-3",
+        "price_chf": 210,
+        "stock": 5,
+        "warehouse": "Zürich Nord"
+      }
+    ]
+  },
+  "LU55555": {
+    "plate": "LU55555",
+    "type_certificate": "4VWG5678",
+    "brand": "Volkswagen",
+    "model": "Golf 8 GTI",
+    "fuel": "Benzin",
+    "tire_size": "225/40 R18",
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Continental",
+        "model": "WinterContact TS 870",
+        "price_chf": 175,
+        "stock": 14,
+        "warehouse": "Luzern"
+      },
+      {
+        "season": "summer",
+        "brand": "Michelin",
+        "model": "Pilot Sport 4S",
+        "price_chf": 195,
+        "stock": 10,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "allseason",
+        "brand": "Bridgestone",
+        "model": "Weather Control A005",
+        "price_chf": 165,
+        "stock": 8,
+        "warehouse": "Luzern"
+      }
+    ]
+  },
+  "ZH88888": {
+    "plate": "ZH88888",
+    "type_certificate": "5MBZ7890",
+    "brand": "Mercedes-Benz",
+    "model": "C-Class W206",
+    "fuel": "Diesel",
+    "tire_size": "225/45 R18",
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Pirelli",
+        "model": "Winter Sottozero 3",
+        "price_chf": 205,
+        "stock": 8,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "summer",
+        "brand": "Continental",
+        "model": "PremiumContact 6",
+        "price_chf": 220,
+        "stock": 6,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "allseason",
+        "brand": "Michelin",
+        "model": "CrossClimate 2",
+        "price_chf": 195,
+        "stock": 10,
+        "warehouse": "Bern Mitte"
+      }
+    ]
+  },
+  "BS33333": {
+    "plate": "BS33333",
+    "type_certificate": "6VOL2345",
+    "brand": "Volvo",
+    "model": "XC60",
+    "fuel": "Diesel",
+    "tire_size": "235/55 R19",
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Nokian",
+        "model": "Snowproof 2 SUV",
+        "price_chf": 215,
+        "stock": 6,
+        "warehouse": "Basel"
+      },
+      {
+        "season": "summer",
+        "brand": "Bridgestone",
+        "model": "Alenza 001",
+        "price_chf": 230,
+        "stock": 8,
+        "warehouse": "Basel"
+      },
+      {
+        "season": "allseason",
+        "brand": "Goodyear",
+        "model": "Vector 4Seasons SUV Gen-3",
+        "price_chf": 205,
+        "stock": 10,
+        "warehouse": "Zürich Nord"
+      }
+    ]
+  },
+  "SG77777": {
+    "plate": "SG77777",
+    "type_certificate": "7SKO3456",
+    "brand": "Skoda",
+    "model": "Octavia RS",
+    "fuel": "Benzin",
+    "tire_size": "225/40 R18",
+    "tire_options": [
+      {
+        "season": "winter",
+        "brand": "Continental",
+        "model": "WinterContact TS 860",
+        "price_chf": 170,
+        "stock": 12,
+        "warehouse": "St. Gallen"
+      },
+      {
+        "season": "summer",
+        "brand": "Dunlop",
+        "model": "Sport Maxx RT2",
+        "price_chf": 185,
+        "stock": 9,
+        "warehouse": "Zürich Nord"
+      },
+      {
+        "season": "allseason",
+        "brand": "Pirelli",
+        "model": "Cinturato All Season Plus",
+        "price_chf": 160,
+        "stock": 11,
+        "warehouse": "St. Gallen"
+      }
+    ]
   }
 }

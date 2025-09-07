@@ -1,14 +1,142 @@
 {
   "ZH12345": {
-    "customer": { "id": "CUST001", "name": "Hans Meier", "phone": "+41791234567" },
-    "vehicle": { "brand": "Audi", "model": "A4", "year": 2019, "vin": "WAUZZZ8K9AA123456" }
+    "customer": {
+      "id": "CUST001",
+      "name": "Hans Meier",
+      "phone": "+41791234567",
+      "email": "hans.meier@email.ch"
+    },
+    "vehicle": {
+      "brand": "Audi",
+      "model": "A4 Avant",
+      "year": 2019,
+      "vin": "WAUZZZ8K9AA123456",
+      "engine": "2.0 TDI"
+    },
+    "history": {
+      "lastVisit": "2025-09-15",
+      "visits": 7,
+      "totalSpent": 2450
+    }
   },
   "BE45678": {
-    "customer": { "id": "CUST002", "name": "Lara Schmid", "phone": "+41795551234" },
-    "vehicle": { "brand": "BMW", "model": "X3", "year": 2021, "vin": "WBAXX32010F998877" }
+    "customer": {
+      "id": "CUST002",
+      "name": "Lara Schmid",
+      "phone": "+41795551234",
+      "email": "lara.schmid@email.ch"
+    },
+    "vehicle": {
+      "brand": "BMW",
+      "model": "X3 xDrive",
+      "year": 2021,
+      "vin": "WBAXX32010F998877",
+      "engine": "2.0L Benzin"
+    },
+    "history": {
+      "lastVisit": "2025-08-22",
+      "visits": 3,
+      "totalSpent": 1850
+    }
   },
   "GE98765": {
-    "customer": { "id": "CUST003", "name": "Marco Rossi", "phone": "+41793334455" },
-    "vehicle": { "brand": "Tesla", "model": "Model 3", "year": 2023, "vin": "5YJ3E1EA7LF789012" }
+    "customer": {
+      "id": "CUST003",
+      "name": "Marco Rossi",
+      "phone": "+41793334455",
+      "email": "marco.rossi@email.ch"
+    },
+    "vehicle": {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2023,
+      "vin": "5YJ3E1EA7LF789012",
+      "engine": "Electric"
+    },
+    "history": {
+      "lastVisit": "2025-07-10",
+      "visits": 2,
+      "totalSpent": 680
+    }
+  },
+  "LU55555": {
+    "customer": {
+      "id": "CUST004",
+      "name": "Anna Müller",
+      "phone": "+41787654321",
+      "email": "anna.mueller@email.ch"
+    },
+    "vehicle": {
+      "brand": "Volkswagen",
+      "model": "Golf 8 GTI",
+      "year": 2022,
+      "vin": "WVWZZZ1KZMW123456",
+      "engine": "2.0 TSI"
+    },
+    "history": {
+      "lastVisit": "2025-06-05",
+      "visits": 5,
+      "totalSpent": 1920
+    }
+  },
+  "ZH88888": {
+    "customer": {
+      "id": "CUST005",
+      "name": "Peter Weber",
+      "phone": "+41791112233",
+      "email": "peter.weber@email.ch"
+    },
+    "vehicle": {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class W206",
+      "year": 2024,
+      "vin": "WDD2050071F123456",
+      "engine": "2.0L Diesel"
+    },
+    "history": {
+      "lastVisit": "2025-09-28",
+      "visits": 1,
+      "totalSpent": 450
+    }
+  },
+  "BS33333": {
+    "customer": {
+      "id": "CUST006",
+      "name": "Sandra Fischer",
+      "phone": "+41769998877",
+      "email": "sandra.fischer@email.ch"
+    },
+    "vehicle": {
+      "brand": "Volvo",
+      "model": "XC60",
+      "year": 2020,
+      "vin": "YV1UZ4MKXL1234567",
+      "engine": "2.0 D4"
+    },
+    "history": {
+      "lastVisit": "2025-04-18",
+      "visits": 8,
+      "totalSpent": 3200
+    }
+  },
+  "SG77777": {
+    "customer": {
+      "id": "CUST007",
+      "name": "Thomas Bieri",
+      "phone": "+41786665544",
+      "email": "thomas.bieri@email.ch"
+    },
+    "vehicle": {
+      "brand": "Skoda",
+      "model": "Octavia RS",
+      "year": 2021,
+      "vin": "TMBJK7NE7M1234567",
+      "engine": "2.0 TSI"
+    },
+    "history": {
+      "lastVisit": "2025-08-15",
+      "visits": 4,
+      "totalSpent": 1340
+    }
   }
 }
