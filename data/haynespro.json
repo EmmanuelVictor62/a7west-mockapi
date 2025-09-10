@@ -1,0 +1,66 @@
+{
+    "tire_change": {
+      "base_duration_minutes": 60,
+      "complexity": "low",
+      "base_price_chf": 80,
+      "skill_level": "standard",
+      "parts": ["Auswuchten", "Ventile prüfen"],
+      "description": "Reifenwechsel mit Montage und Auswuchten"
+    },
+    "oil_change": {
+      "base_duration_minutes": 45,
+      "complexity": "low",
+      "base_price_chf": 120,
+      "skill_level": "standard",
+      "parts": ["Motoröl", "Ölfilter", "Dichtring"],
+      "description": "Ölwechsel inkl. Filter und Kontrolle"
+    },
+    "brake_service": {
+      "base_duration_minutes": 120,
+      "complexity": "medium",
+      "base_price_chf": 350,
+      "skill_level": "advanced",
+      "parts": ["Bremsbeläge", "Bremsflüssigkeit"],
+      "description": "Bremsbeläge wechseln, Scheiben prüfen, Flüssigkeit auffüllen"
+    },
+    "inspection": {
+      "base_duration_minutes": 90,
+      "complexity": "medium",
+      "base_price_chf": 180,
+      "skill_level": "standard",
+      "parts": ["Luftfilter", "Innenraumfilter"],
+      "description": "Grosse Inspektion nach Herstellervorgaben"
+    },
+    "general_repair": {
+      "base_duration_minutes": 180,
+      "complexity": "high",
+      "base_price_chf": 450,
+      "skill_level": "expert",
+      "parts": ["Nach Diagnose"],
+      "description": "Allgemeine Reparatur, Zeitaufwand nach Diagnose"
+    },
+    "battery_replacement": {
+      "base_duration_minutes": 30,
+      "complexity": "low",
+      "base_price_chf": 95,
+      "skill_level": "standard",
+      "parts": ["Batterie"],
+      "description": "Batterie wechseln und System prüfen"
+    },
+    "air_conditioning": {
+      "base_duration_minutes": 75,
+      "complexity": "medium",
+      "base_price_chf": 220,
+      "skill_level": "advanced",
+      "parts": ["Kältemittel", "Filter"],
+      "description": "Klimaanlage Service, Befüllung und Desinfektion"
+    },
+    "timing_belt": {
+      "base_duration_minutes": 240,
+      "complexity": "high",
+      "base_price_chf": 850,
+      "skill_level": "expert",
+      "parts": ["Zahnriemen", "Spannrollen", "Wasserpumpe"],
+      "description": "Zahnriemenwechsel inkl. Wasserpumpe"
+    }
+  }
