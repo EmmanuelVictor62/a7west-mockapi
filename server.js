@@ -19,13 +19,13 @@ let bookings = [];
 // ----------------------
 // MIDDLEWARE: Optional Auth (commented out for testing)
 // ----------------------
-// app.use((req, res, next) => {
-//   const auth = req.headers["authorization"];
-//   if (!auth || auth !== "Bearer MOCK_TOKEN_123") {
-//     return res.status(401).json({ error: "Unauthorized" });
-//   }
-//   next();
-// });
+app.use((req, res, next) => {
+  const auth = req.headers["authorization"];
+  if (!auth || auth !== "Bearer MOCK_TOKEN_123") {
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  next();
+});
 
 // ----------------------
 // UTILITY FUNCTIONS
