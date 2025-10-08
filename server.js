@@ -40,6 +40,14 @@ app.post("/api/esseda", (req, res) => {
   }
 });
 
+app.use((req, res, next) => {
+  const auth = req.headers["authorization"];
+  if (!auth || auth !== "Bearer MOCK_TOKEN_123") {
+    return res.status(401).json({ error: "Unauthorized" });
+  }
+  next();
+});
+
 // ----------------------
 // HEALTH CHECK
 // ----------------------
