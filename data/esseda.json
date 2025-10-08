@@ -1,0 +1,38 @@
+{
+  "ZH12345": {
+    "plate": "ZH12345",
+    "type_certificate": "1AFR9876",
+    "brand": "Audi",
+    "model": "A4 Avant",
+    "fuel": "Diesel",
+    "tire_type": "Winterreifen",
+    "tire_size": "225/45 R17",
+    "stock": 24,
+    "price_per_tire": 120,
+    "warehouse": "Zürich Nord"
+  },
+  "BE45678": {
+    "plate": "BE45678",
+    "type_certificate": "2BTR3456",
+    "brand": "BMW",
+    "model": "X3",
+    "fuel": "Benzin",
+    "tire_type": "Sommerreifen",
+    "tire_size": "245/50 R18",
+    "stock": 10,
+    "price_per_tire": 145,
+    "warehouse": "Bern Mitte"
+  },
+  "GE98765": {
+    "plate": "GE98765",
+    "type_certificate": "3TES1234",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "fuel": "Elektrisch",
+    "tire_type": "Ganzjahresreifen",
+    "tire_size": "235/45 R18",
+    "stock": 6,
+    "price_per_tire": 210,
+    "warehouse": "Genf Süd"
+  }
+}

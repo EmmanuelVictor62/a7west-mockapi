@@ -1,0 +1,14 @@
+{
+  "ZH12345": {
+    "customer": { "id": "CUST001", "name": "Hans Meier", "phone": "+41791234567" },
+    "vehicle": { "brand": "Audi", "model": "A4", "year": 2019, "vin": "WAUZZZ8K9AA123456" }
+  },
+  "BE45678": {
+    "customer": { "id": "CUST002", "name": "Lara Schmid", "phone": "+41795551234" },
+    "vehicle": { "brand": "BMW", "model": "X3", "year": 2021, "vin": "WBAXX32010F998877" }
+  },
+  "GE98765": {
+    "customer": { "id": "CUST003", "name": "Marco Rossi", "phone": "+41793334455" },
+    "vehicle": { "brand": "Tesla", "model": "Model 3", "year": 2023, "vin": "5YJ3E1EA7LF789012" }
+  }
+}
