@@ -138,5 +138,45 @@
       "visits": 4,
       "totalSpent": 1340
     }
+  },
+  "BE630932": {
+    "customer": {
+      "id": "CUST008",
+      "name": "Nicole Keller",
+      "phone": "+41794443322",
+      "email": "nicole.keller@email.ch"
+    },
+    "vehicle": {
+      "brand": "Peugeot",
+      "model": "3008 Hybrid4",
+      "year": 2022,
+      "vin": "VF3M45HYXMN123456",
+      "engine": "1.6 Hybrid"
+    },
+    "history": {
+      "lastVisit": "2025-10-05",
+      "visits": 2,
+      "totalSpent": 970
+    }
+  },
+  "AI6023": {
+    "customer": {
+      "id": "CUST009",
+      "name": "Jonas Baumann",
+      "phone": "+41792221100",
+      "email": "jonas.baumann@email.ch"
+    },
+    "vehicle": {
+      "brand": "Renault",
+      "model": "Clio V",
+      "year": 2020,
+      "vin": "VF1RZ1JA2LY123456",
+      "engine": "1.0 TCe"
+    },
+    "history": {
+      "lastVisit": "2025-09-01",
+      "visits": 3,
+      "totalSpent": 760
+    }
   }
 }
