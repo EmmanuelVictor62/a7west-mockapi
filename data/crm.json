@@ -1,22 +1,45 @@
 {
   "ZH12345": {
     "customer": {
-      "id": "CUST001",
-      "name": "Hans Meier",
+      "id": "CUST-001",
+      "name": "Anna Müller",
       "phone": "+41791234567",
-      "email": "hans.meier@email.ch"
+      "email": "anna.mueller@email.ch"
     },
     "vehicle": {
-      "brand": "Audi",
-      "model": "A4 Avant",
-      "year": 2019,
-      "vin": "WAUZZZ8K9AA123456",
-      "engine": "2.0 TDI"
+      "brand": "Volkswagen",
+      "model": "Golf 8 GTI",
+      "year": 2022,
+      "vin": "WVWZZZ1KZAW123456",
+      "engine": "2.0 TSI"
+    },
+    "tire_storage": {
+      "has_stored_tires": true,
+      "storage_location": "Lager A7 West - Regal 12B",
+      "tire_type": "winter",
+      "tire_details": {
+        "brand": "Continental",
+        "model": "WinterContact TS 860",
+        "size": "225/45 R17",
+        "quantity": 4,
+        "condition": "gut",
+        "last_mounted": "2024-03-15"
+      },
+      "storage_fee_paid": true,
+      "storage_until": "2025-12-31"
+    },
+    "last_tire_purchase": {
+      "date": "2023-10-15",
+      "brand": "Continental",
+      "model": "WinterContact TS 860",
+      "size": "225/45 R17",
+      "price_chf": 580,
+      "season": "winter"
     },
     "history": {
-      "lastVisit": "2025-09-15",
-      "visits": 7,
-      "totalSpent": 2450
+      "visits": 5,
+      "lastVisit": "2024-09-20",
+      "services": ["Reifenwechsel", "Service", "Inspektion"]
     }
   },
   "BE45678": {
@@ -61,22 +84,38 @@
   },
   "LU55555": {
     "customer": {
-      "id": "CUST004",
-      "name": "Anna Müller",
-      "phone": "+41787654321",
-      "email": "anna.mueller@email.ch"
+      "id": "CUST-002",
+      "name": "Hans Meyer",
+      "phone": "+41791234568",
+      "email": "hans.meyer@email.ch"
     },
     "vehicle": {
-      "brand": "Volkswagen",
-      "model": "Golf 8 GTI",
-      "year": 2022,
-      "vin": "WVWZZZ1KZMW123456",
-      "engine": "2.0 TSI"
+      "brand": "Audi",
+      "model": "A4",
+      "year": 2021,
+      "vin": "WAUZZZ8K8DA123456",
+      "engine": "2.0 TDI"
+    },
+    "tire_storage": {
+      "has_stored_tires": false,
+      "storage_location": null,
+      "tire_type": null,
+      "tire_details": null,
+      "storage_fee_paid": false,
+      "storage_until": null
+    },
+    "last_tire_purchase": {
+      "date": "2023-04-10",
+      "brand": "Michelin",
+      "model": "Primacy 4",
+      "size": "225/50 R17",
+      "price_chf": 620,
+      "season": "summer"
     },
     "history": {
-      "lastVisit": "2025-06-05",
-      "visits": 5,
-      "totalSpent": 1920
+      "visits": 3,
+      "lastVisit": "2024-07-15",
+      "services": ["Reifenwechsel", "Service"]
     }
   },
   "ZH88888": {
@@ -139,24 +178,33 @@
       "totalSpent": 1340
     }
   },
-  "BE630932": {
+  "BE98765": {
     "customer": {
-      "id": "CUST008",
-      "name": "Nicole Keller",
-      "phone": "+41794443322",
-      "email": "nicole.keller@email.ch"
+      "id": "CUST-003",
+      "name": "Sarah Schmidt",
+      "phone": "+41791234569",
+      "email": "sarah.schmidt@email.ch"
     },
     "vehicle": {
-      "brand": "Peugeot",
-      "model": "3008 Hybrid4",
-      "year": 2022,
-      "vin": "VF3M45HYXMN123456",
-      "engine": "1.6 Hybrid"
+      "brand": "BMW",
+      "model": "3er",
+      "year": 2020,
+      "vin": "WBA8E9G58LNT12345",
+      "engine": "2.0d"
     },
+    "tire_storage": {
+      "has_stored_tires": false,
+      "storage_location": null,
+      "tire_type": null,
+      "tire_details": null,
+      "storage_fee_paid": false,
+      "storage_until": null
+    },
+    "last_tire_purchase": null,
     "history": {
-      "lastVisit": "2025-10-05",
-      "visits": 2,
-      "totalSpent": 970
+      "visits": 1,
+      "lastVisit": "2024-11-01",
+      "services": ["Service"]
     }
   },
   "AI6023": {
