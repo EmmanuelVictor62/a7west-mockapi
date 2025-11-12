@@ -75,36 +75,20 @@ app.post("/api/customer-lookup", (req, res) => {
             vin: record.vehicle.vin,
             engine: record.vehicle.engine || "Unknown"
           },
+          tire_storage: record.tire_storage || {
+            has_stored_tires: false,
+            storage_location: null,
+            tire_type: null,
+            tire_details: null
+          },
+          last_tire_purchase: record.last_tire_purchase || null,
           isReturningCustomer: record.history ? record.history.visits > 0 : true,
           lastVisit: record.history?.lastVisit || null,
           totalVisits: record.history?.visits || 1
         },
-        message: `Customer found: ${record.customer.name}`
+        message: `Kunde gefunden: ${record.customer.name}`
       });
-    } else {
-      // New customer - no records found
-      res.json({
-        success: true,
-        customer: {
-          id: "CUST-NEW-" + Date.now(),
-          name: "Neuer Kunde",
-          phone: null,
-          email: null,
-          vehicle: {
-            plate: plate,
-            brand: "Unknown",
-            model: "Unknown",
-            year: null,
-            vin: null,
-            engine: null
-          },
-          isReturningCustomer: false,
-          lastVisit: null,
-          totalVisits: 0
-        },
-        message: "New customer - no records found in CRM"
-      });
-    }
+    } 
   } catch (error) {
     res.status(500).json({
       success: false,
