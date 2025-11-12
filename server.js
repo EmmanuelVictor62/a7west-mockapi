@@ -220,75 +220,6 @@ app.post("/api/service-estimate", (req, res) => {
   }
 });
 
-// ----------------------
-// 5. CONFIRM BOOKING
-// ----------------------
-// app.post("/api/confirm-booking", (req, res) => {
-//   try {
-//     const {
-//       customer_id,
-//       appointment_datetime,
-//       service_type,
-//       license_plate,
-//       notification_preference = "all"
-//     } = req.body;
-    
-//     if (!customer_id || !appointment_datetime || !service_type || !license_plate) {
-//       return res.status(400).json({
-//         success: false,
-//         error: "Missing required fields: customer_id, appointment_datetime, service_type, license_plate"
-//       });
-//     }
-
-//     const bookingId = generateBookingId();
-//     const confirmationCode = generateConfirmationCode();
-    
-//     const booking = {
-//       id: bookingId,
-//       customer_id: customer_id,
-//       license_plate: normalizePlate(license_plate),
-//       appointment_datetime: appointment_datetime,
-//       service_type: service_type,
-//       status: "confirmed",
-//       confirmation_code: confirmationCode,
-//       created_at: new Date().toISOString(),
-//       notification_preference: notification_preference
-//     };
-    
-//     // Store booking in memory
-//     bookings.push(booking);
-    
-//     // Simulate notification sending
-//     const notifications = {
-//       sms: (notification_preference === "sms" || notification_preference === "all") 
-//         ? { status: "sent", sent_at: new Date().toISOString() }
-//         : { status: "skipped" },
-//       whatsapp: (notification_preference === "whatsapp" || notification_preference === "all")
-//         ? { status: "sent", sent_at: new Date().toISOString() }
-//         : { status: "skipped" },
-//       email: (notification_preference === "email" || notification_preference === "all")
-//         ? { status: "sent", sent_at: new Date().toISOString() }
-//         : { status: "skipped" }
-//     };
-
-//     res.json({
-//       success: true,
-//       booking: booking,
-//       notifications: notifications,
-//       message: `Booking confirmed successfully. Confirmation code: ${confirmationCode}`,
-//       next_steps: [
-//         "Confirmation sent via selected channels",
-//         "Reminder will be sent 24 hours before appointment",
-//         "Please arrive 10 minutes early"
-//       ]
-//     });
-//   } catch (error) {
-//     res.status(500).json({
-//       success: false,
-//       error: error.message
-//     });
-//   }
-// });
 
 // ----------------------
 // 6. ESCALATE TO HUMAN
@@ -341,9 +272,6 @@ app.post("/api/service-estimate", (req, res) => {
 //   }
 // });
 
-// ----------------------
-// ADMIN ENDPOINTS (for testing/debugging)
-// ----------------------
 
 // View all bookings
 app.get("/api/admin/bookings", (req, res) => {
@@ -351,16 +279,6 @@ app.get("/api/admin/bookings", (req, res) => {
     success: true,
     total: bookings.length,
     bookings: bookings
-  });
-});
-
-// Clear all bookings
-app.delete("/api/admin/bookings", (req, res) => {
-  const count = bookings.length;
-  bookings = [];
-  res.json({
-    success: true,
-    message: `Cleared ${count} bookings`
   });
 });
 
@@ -375,8 +293,6 @@ app.get("/", (req, res) => {
       customer_lookup: "POST /api/customer-lookup",
       tire_inventory: "POST /api/tire-inventory",
       service_estimate: "POST /api/service-estimate",
-      // confirm_booking: "POST /api/confirm-booking",
-      // escalate_human: "POST /api/escalate-human",
       admin_bookings: "GET /api/admin/bookings"
     },
     timestamp: new Date().toISOString()
