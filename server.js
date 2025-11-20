@@ -88,7 +88,13 @@ app.post("/api/customer-lookup", (req, res) => {
         },
         message: `Kunde gefunden: ${record.customer.name}`
       });
-    } 
+    } else {
+      res.status(404).json({
+        success: false,
+        error: "Customer not found",
+        message: `No customer record found for license plate ${plate}`,
+      });
+    }
   } catch (error) {
     res.status(500).json({
       success: false,
